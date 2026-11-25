@@ -10,14 +10,16 @@ Protect your passengers, earn cash, visit the gun shop and keep the bus running.
 Extract the ZIP, then double-click **Zombie Bus.exe**. The game data is inside the EXE.
 Godot, a launcher, an account and an internet connection are not needed to play.
 
-Windows 64-bit · Single player · Two modes
+Windows 64-bit · Single player · Three modes
 
 ![Night service](screenshots/night-service.png)
 
 ## Pick your ride
 
-- **Zombie Bus Ride:** survive five rounds and the final escape while protecting your fellow passengers.
-- **Barricade Run:** fit window boards, coordinate passengers and fight the infected as they tear through the defenses.
+- **Arcade / Night Bus:** survive five rounds and the final escape while protecting your fellow passengers.
+- **Arcade / Barricade Run:** fit window boards, coordinate passengers and fight the infected as they tear through the defenses.
+
+- **Cinematic Survival:** rescue people fleeing the city, protect frightened passengers, survive roof/window/door boarding and manage damage that persists between attacks. Passengers can defend, repair, panic or escape.
 
 The NYC route includes a helper, passengers, weapons, weather, voices, cash rewards,
 an armor-and-wall-gun supply shop, breakdowns and emergency exit/reboarding.
@@ -48,9 +50,18 @@ Options, tutorials, pause/restart, saved settings and best scores are included.
 Start with the loaded pistol selected. The bus waits for you during an emergency stop.
 Settings and records are saved locally. Controls and sensitivity can be changed in Options.
 
+## Cinematic Survival update — v1.1.0
+
+The new service is optional. The original two Arcade modes remain available with their
+existing rules and targeting rings. Cinematic Survival uses a minimal aiming dot, actual
+body hits, directional reactions and ragdolls, pooled infected, randomized passenger
+personalities, city rescues, persistent bus damage and positional street chaos.
+Its six creature roles reuse the existing infected graphics with different behavior,
+gait and size. F8 opens developer encounter controls in this mode.
+
 ## Build notes
 
-This build includes corrected weapon hands and hit detection, a crosshair and combat rings,
+This build includes corrected weapon hands and hit detection, a crosshair and Arcade combat rings,
 the palm-facing passenger rally interaction, walking seat returns, cone-hat removal,
 the loading-audio and standing-performance fixes, nighttime showroom lighting,
 and a looping introduction with zombies clinging to the bus roof.
